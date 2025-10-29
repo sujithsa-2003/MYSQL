@@ -1,0 +1,9 @@
+INSERT INTO college(ID, NAME, AGE, DEPARTMENT, GRADE) 
+VALUES ('1','MEENU','19','cs','90'),
+('2','SUNNY','20','Physics','80'),
+('3','PINKY','19','Maths','75'),
+('4','DEVU','21','English','65');
+SELECT * FROM college WHERE AGE>20;
+SELECT * FROM college WHERE DEPARTMENT='cs' OR DEPARTMENT='Physics';
+SELECT * FROM college WHERE GRADE=90;
+SELECT * FROM college WHERE GRADE>70 AND GRADE<90;
